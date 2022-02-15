@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sixthlaba</string>
+    <string name="taskName">Task Name</string>
+    <string name="taskText">Task Text</string>
+    <string name="taskDate">Task Date</string>
+    <string name="save">Save</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChangingActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:text="@string/taskName"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewName" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:text="Name"
+                android:ems="10"
+                android:id="@+id/editTextTaskName" />
+
+        <TextView
+                android:text="@string/taskText"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewText" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:text="Text"
+                android:ems="10"
+                android:id="@+id/editTextTaskText" />
+
+
+        <TextView
+                android:text="@string/taskDate"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewDate" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:textSize="20sp"
+                android:text="200.01.01"
+                android:ems="10"
+                android:id="@+id/editTextTaskDate" />
+
+        <Button
+                android:text="@string/save"
+                android:layout_marginTop="35dp"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/saveButton" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
